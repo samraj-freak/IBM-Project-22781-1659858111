@@ -1,3 +1,6 @@
+<h1 align="fill">
+ <img src="https://i.postimg.cc/x8pM9yRY/News-Tracker-Application.png"/>
+</h1>
 <p align="center" style="margin-bottom: 0px !important;">
 </p>
 <h1 align="center" style="margin-top: 0px;">News Tracker</h1>
