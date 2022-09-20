@@ -1,3 +1,6 @@
+<h1 align="fill">
+ <img src="https://drive.google.com/file/d/10XUr3XuHFWRhb8aJJgLCyQEkeNHOUakP/view?usp=sharing" />
+</h1>
 <p align="center" style="margin-bottom: 0px !important;">
 </p>
 <h1 align="center" style="margin-top: 0px;">News Tracker</h1>
