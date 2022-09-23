@@ -3,6 +3,10 @@
     {{title}}
 {% endblock title %}
 {% block content %}
+    {% if succ %}
+        <div class="alert alert-success" role="alert">{{ succ }}</div>
+        
+    {% endif %}
     <div class="text-center">
         <br>
         <img src="/static/welcome.gif" class="img-fluid" alt="welcome">
