@@ -24,7 +24,18 @@ body {
    background:#6cf;
 }
 
-.form {
-   margin-left: 40rem;
-   margin-right: 40rem;
+
+
+@media (min-width: 1399.98px) {
+   .form {
+      margin-left: 500px;
+      margin-right: 500px;
+   }
+}
+
+@media (min-width: 300px) and (max-width: 1399.98px) {
+   .form {
+      margin-left: 10%;
+      margin-right: 10%;
+   }
 }
