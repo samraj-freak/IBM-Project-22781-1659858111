@@ -5,10 +5,19 @@ import sqlite3
 app = Flask(__name__)
 app.secret_key = "69420"
 
+def init_db():
+    db = sqlite3.connect('users.db')
+    with open('schema.sql', 'r') as schema:
+        db.executescript(schema.read())
+    db.commit()
+
+@app.cli.command('initdb')
+def initdb_cmd():
+    init_db()
+    print("Initialised database.")
+
 def get_db():
     conn = sqlite3.connect('users.db')
-    with open('schema.sql') as schema:
-        conn.executescript(schema.read())
     conn.row_factory = sqlite3.Row
     return conn
 
