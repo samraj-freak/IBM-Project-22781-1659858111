@@ -1,4 +1,4 @@
-<h1 style="background-color:DodgerBlue;">### Initialise the Database</h1>
+### Initialise the Database
 ```flask initdb```
 
 ### Run the Application
